@@ -16,7 +16,7 @@ namespace ServiEntregaSPODemo.Business
     {
         public void ReassignState(string workItemId, string oldValue)
         {
-            var uri = new Uri("https://erramirems.visualstudio.com");
+            var uri = new Uri("https://dev.azure.com");
             var personalAccessToken = "xxxxxx"; //Personal access token generated in AzDO
             var projectName = "xxxxxx"; //Project name in AzDo
 
